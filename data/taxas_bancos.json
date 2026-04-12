@@ -1,0 +1,22 @@
+[
+  {
+    "banco": "Banco do Brasil",
+    "taxa_juros_mensal": 1.95,
+    "prazo_maximo_meses": 84
+  },
+  {
+    "banco": "Caixa Econômica",
+    "taxa_juros_mensal": 2.10,
+    "prazo_maximo_meses": 72
+  },
+  {
+    "banco": "Bradesco",
+    "taxa_juros_mensal": 2.05,
+    "prazo_maximo_meses": 96
+  },
+  {
+    "banco": "Santander",
+    "taxa_juros_mensal": 2.00,
+    "prazo_maximo_meses": 84
+  }
+]
