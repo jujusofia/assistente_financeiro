@@ -39,10 +39,13 @@ O agente consulta dinamicamente os dados conforme a pergunta do usuário.
 As informações relevantes são formatadas em linguagem natural antes de serem apresentadas.
 
 ### Como os dados são usados no prompt?
-System Prompt: inclui regras gerais e limites (ex.: margem consignável máxima).
-Dados dinâmicos: taxas de bancos e perfil do cliente são consultados conforme a interação.
-Simulações: valores são calculados com base nos dados do cliente e nas taxas disponíveis.
 ---
+System Prompt: inclui regras gerais e limites (ex.: margem consignável máxima).
+
+Dados dinâmicos: taxas de bancos e perfil do cliente são consultados conforme a interação.
+
+Simulações: valores são calculados com base nos dados do cliente e nas taxas disponíveis.
+
 
 ## Exemplo de Contexto Montado
 
