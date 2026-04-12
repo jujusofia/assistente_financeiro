@@ -53,13 +53,6 @@ Erro/Limitação: "Não tenho essa informação no momento, mas posso te mostrar
 
 Fluxo: Usuário → Interface → LLM → Base de Conhecimento → Validação → Resposta Segura
 
-Componentes
-Componente	Descrição
-Interface	Chatbot em Streamlit ou WhatsApp Business
-LLM	GPT-4 via API
-Base de Conhecimento	Tabelas com taxas de juros e regras de consignado
-Validação	Checagem de consistência e anti-alucinação
-Segurança	Restrições para evitar recomendações indevidas
 ```
 
 ### Componentes
