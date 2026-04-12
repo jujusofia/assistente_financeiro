@@ -8,7 +8,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
 | `perfil_cliente.json` | JSON | Identificar margem consignável, renda e perfil do cliente |
-| `ptaxas_bancos.json` | JSON | Listar taxas de juros praticadas por diferentes bancos |
+| `taxas_bancos.json` | JSON | Listar taxas de juros praticadas por diferentes bancos |
 | `simulacoes.csv` | CSV | Registrar simulações anteriores para comparação |
 | `regulacoes_inss.json` | JSON | Regras oficiais sobre consignado (margem, teto de juros, prazos permitidos) |
 
