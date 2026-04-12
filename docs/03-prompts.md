@@ -139,5 +139,4 @@ Quer que eu te mostre como calcular sua margem disponível?
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Incluí edge cases para garantir que o agente saiba recusar perguntas fora do escopo ou sensíveis.
