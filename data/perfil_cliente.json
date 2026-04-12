@@ -1,0 +1,7 @@
+{
+  "nome": "João Silva",
+  "beneficio_liquido": 3000,
+  "margem_consignavel": 1050,
+  "idade": 65,
+  "tipo_beneficio": "aposentadoria"
+}
