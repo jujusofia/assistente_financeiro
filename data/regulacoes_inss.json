@@ -1,0 +1,28 @@
+{
+  "margem_consignavel": {
+    "descricao": "Percentual máximo da renda líquida que pode ser comprometida com empréstimos consignados.",
+    "valor_maximo": 0.35,
+    "observacao": "Inclui empréstimos e cartão consignado."
+  },
+  "taxa_juros_maxima": {
+    "descricao": "Teto de juros definido pelo governo para empréstimos consignados do INSS.",
+    "valor_mensal": 2.14,
+    "valor_cartao": 3.06,
+    "observacao": "Valores podem ser atualizados periodicamente por portarias do INSS e Ministério da Economia."
+  },
+  "prazo_maximo": {
+    "descricao": "Prazo máximo permitido para pagamento do empréstimo consignado.",
+    "valor_meses": 84,
+    "observacao": "Pode variar conforme o tipo de contrato e instituição financeira."
+  },
+  "proibicoes": [
+    "Não é permitido contratar acima da margem consignável.",
+    "Não é permitido refinanciamento sem quitação parcial da dívida.",
+    "Não é permitido empréstimo consignado para benefícios temporários."
+  ],
+  "direitos_cliente": [
+    "Direito de portabilidade do crédito para outro banco.",
+    "Direito de cancelamento do contrato em até 7 dias.",
+    "Direito de acesso às informações claras sobre taxas e prazos."
+  ]
+}
