@@ -61,7 +61,7 @@ Fluxo: Usuário → Interface → LLM → Base de Conhecimento → Validação �
 | Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
 | Validação | [ex: Checagem de alucinações] |
 
----
+---mermaid
 
 ## Segurança e Anti-Alucinação
 
