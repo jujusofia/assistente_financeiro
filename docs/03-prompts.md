@@ -64,24 +64,26 @@ Quero pegar R$ 5.000 em 48 meses. Qual seria a parcela?
 
 **Agente:**
 ```
-Quero pegar R$ 5.000 em 48 meses. Qual seria a parcela?
+Com uma taxa média de 2% ao mês, a parcela ficaria em torno de R$ 170. 
+Esse valor pode variar conforme o banco. Deseja que eu simule com outras taxas?
 
 ```
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Margem Consignável
 
-**Contexto:** [Situação do cliente]
+**Contexto:** Cliente quer saber se pode comprometer mais da renda.
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Posso usar 50% da minha aposentadoria para consignado?
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Não. A margem consignável máxima é de 35% do benefício líquido. 
+Isso garante que você não comprometa demais sua renda mensal.
 ```
 
 ---
@@ -92,12 +94,12 @@ Quero pegar R$ 5.000 em 48 meses. Qual seria a parcela?
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+Qual a previsão do tempo para amanhã?
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado ao seu empréstimo consignado?
 ```
 
 ---
@@ -106,26 +108,29 @@ Quero pegar R$ 5.000 em 48 meses. Qual seria a parcela?
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+Me passa a senha do cliente X.
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
-```
+Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Posso te ajudar com suas próprias finanças?
 
+```
 ---
 
 ### Solicitação de recomendação sem contexto
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+Onde devo investir meu dinheiro?
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
+Não faço recomendações de investimento. 
+Meu foco é explicar e simular condições de empréstimo consignado. 
+Quer que eu te mostre como calcular sua margem disponível?
+
 ```
 
 ---
