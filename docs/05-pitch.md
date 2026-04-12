@@ -1,4 +1,4 @@
-# Pitch (3 minutos)
+# Pitch  - ConsigBot
 
 ### 1. O Problema (30 seg)
 Muitos aposentados, pensionistas e servidores públicos têm dificuldade em entender as condições do empréstimo consignado. As taxas de juros, prazos e limites de margem consignável não são claros, o que gera insegurança e risco de endividamento.
