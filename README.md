@@ -14,11 +14,7 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 ---
 
-## O Que Você Deve Entregar
-
 ### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
 
 - **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
 - **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
