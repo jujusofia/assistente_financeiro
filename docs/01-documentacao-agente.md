@@ -1,4 +1,4 @@
-# Documentação do Agente
+# SimuLyn AI Chat - Simulador inteligente de crédito pessoal e consignado
 
 ## Caso de Uso
 
