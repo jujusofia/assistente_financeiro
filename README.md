@@ -1,4 +1,4 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 SimuLyn AI Chat - Simulador inteligente de crédito pessoal e consignado
 
 ## Contexto
 
