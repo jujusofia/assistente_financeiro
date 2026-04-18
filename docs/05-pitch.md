@@ -5,7 +5,7 @@ Muitos aposentados, pensionistas e servidores públicos têm dificuldade em ente
 
 
 ### 2. A Solução (1 min)
-O ConsigBot é um agente consultor inteligente especializado em empréstimos consignados.
+O SimuLyn é um agente consultor inteligente especializado em empréstimos consignados.
 Ele:
 Explica termos financeiros de forma simples e acessível.
 Simula cenários de pagamento com base nos dados do cliente.
