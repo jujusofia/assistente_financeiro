@@ -62,12 +62,3 @@ Expandir base de dados com mais bancos e taxas atualizadas.
 Reduzir tempo de resposta em simulações mais complexas.
 
 ---
-
-## Métricas Avançadas (Opcional)
-
-Latência e tempo de resposta: medir se o agente responde rápido.
-Consumo de tokens e custos: monitorar eficiência do modelo.
-Logs e taxa de erros: verificar falhas em consultas de dados.
-Ferramentas como LangWatch e LangFuse podem ajudar nesse monitoramento.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
