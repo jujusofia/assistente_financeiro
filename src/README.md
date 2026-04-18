@@ -15,9 +15,8 @@ src/
 ## Exemplo de requirements.txt
 
 ```
-streamlit
-openai
-python-dotenv
+import gradio as gr
+import re
 ```
 
 ## Como Rodar
