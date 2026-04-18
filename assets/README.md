@@ -1,4 +1,4 @@
-# Assets
+# Telas
 
 Esta pasta é destinada a recursos visuais do seu projeto:
 
