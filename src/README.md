@@ -24,7 +24,7 @@ python-dotenv
 
 ```bash
 # Instalar dependências
-pip install -r requirements.txt
+!pip install openai-whisper
 
 # Rodar a aplicação
 streamlit run app.py
