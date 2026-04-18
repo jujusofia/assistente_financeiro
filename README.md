@@ -1,145 +1,123 @@
-# 🤖 SimuLyn AI Chat - Simulador inteligente de crédito pessoal e consignado
+# SimuLyn AI Chat - Simulador Inteligente de Crédito Pessoal e Consignado
 
-## Contexto
+## 📌 Visão Geral
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
-
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
+O SimuLyn AI Chat é um agente financeiro inteligente para simulação de crédito pessoal e consignado baseado em IA Generativa e dados do usuário.
 
 ---
 
-### 1. Documentação do Agente
+## 🎯 Objetivo
 
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+- Simular crédito pessoal e consignado com base em dados reais
+- Personalizar recomendações conforme perfil financeiro
+- Garantir segurança nas sugestões financeiras
+- Evitar alucinações com regras determinísticas
 
 ---
 
-### 2. Base de Conhecimento
+## 👤 Persona
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+Consultor financeiro digital sênior com comunicação:
+- Clara
+- Objetiva
+- Educativa
+- Baseada em dados
 
 ---
 
-### 3. Prompts do Agente
+## 🧠 Arquitetura
 
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
+Usuário → Interface (Streamlit/Gradio)  
+→ Parser de intenção  
+→ Base de dados do cliente  
+→ Motor de regras financeiras  
+→ LLM (geração de linguagem)  
+→ Resposta final  
 
 ---
 
-### 5. Avaliação e Métricas
+## 📊 Base de Conhecimento
 
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
+- transacoes.csv → histórico financeiro  
+- historico_atendimento.csv → interações anteriores  
+- perfil_investidor.json → perfil do cliente  
+- produtos_financeiros.json → produtos e taxas  
 
 ---
 
-### 6. Pitch
+## 🔐 Regras de Segurança
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
+- Proibido gerar valores sem dados reais  
+- Simulações apenas via regras determinísticas  
+- Limite de comprometimento: 30% a 35% da renda  
+- Solicitar dados quando necessário  
+- Respostas sempre baseadas em contexto válido  
 
 ---
 
-## Ferramentas Sugeridas
+## 🧠 System Prompt
 
-Todas as ferramentas abaixo possuem versões gratuitas:
+Você é o SimuLyn AI Chat, um consultor financeiro especializado em simulação de crédito pessoal e consignado.
 
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
-
----
-
-## Estrutura do Repositório
-
-```
-📁 lab-agente-financeiro/
-│
-├── 📄 README.md
-│
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
-│
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
-```
+Regras:
+- Não inventar valores financeiros
+- Não simular crédito sem dados suficientes
+- Usar apenas dados fornecidos pelo sistema
+- Priorizar segurança financeira do usuário
+- Explicar resultados de forma clara e objetiva
 
 ---
 
-## Dicas Finais
+## 💬 Exemplo de Interação
 
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+Usuário:
+“Posso pegar um empréstimo de R$ 10.000?”
+
+Resposta:
+- Valor recomendado: R$ 6.000  
+- Parcela estimada: R$ 420  
+- Comprometimento: 28% da renda  
+
+---
+
+## ⚠️ Edge Cases
+
+Sem dados suficientes:
+- Solicitar informações adicionais
+
+Valor acima do limite:
+- Sugerir redução de valor ou aumento de prazo
+
+Dados inconsistentes:
+- Solicitar atualização do perfil financeiro
+
+---
+
+## 💻 Aplicação
+
+Stack:
+- Python  
+- Streamlit ou Gradio  
+- API de LLM (OpenAI, Claude ou similar)
+
+---
+
+## 🧪 Exemplo (Streamlit)
+
+```python
+import streamlit as st
+
+st.title("SimuLyn AI Chat")
+
+user_input = st.text_input("Digite sua solicitação:")
+
+if user_input:
+    st.write("Processando simulação...")
+
+    resultado = {
+        "valor_recomendado": 6000,
+        "parcela": 420,
+        "comprometimento": "28%"
+    }
+
+    st.json(resultado)
