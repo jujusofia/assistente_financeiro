@@ -12,7 +12,7 @@ src/
 └── requirements.txt
 ```
 
-## Exemplo de requirements.txt
+## Requerimentos
 
 ```
 import gradio as gr
