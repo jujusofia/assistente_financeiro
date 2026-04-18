@@ -1,5 +1,8 @@
 # Código da Aplicação
 
+
+```
+
 # ==============================
 # PERFIL DO CLIENTE
 # ==============================
@@ -172,6 +175,9 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
     msg.submit(chat, inputs=[msg, chatbot], outputs=chatbot)
 
 app.launch()
+
+```
+
 
 ## Requerimentos
 
