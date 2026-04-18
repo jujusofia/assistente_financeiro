@@ -1,6 +1,6 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta contém o código do meu agente financeiro.
 
 ## Estrutura Sugerida
 
@@ -24,21 +24,10 @@ python-dotenv
 
 ```bash
 # Instalar dependências
-!pip install -q openai-whisper gTTS requests matplotlib openai
-!apt-get update -qq && apt-get install -y ffmpeg
+pip install gradio transformers accelerate
 
-!pip install openai-whisper
-
-import os
-import re
-import whisper
-import requests
-import matplotlib.pyplot as plt
-
-from gtts import gTTS
-from base64 import b64decode
-from IPython.display import Audio, display, Javascript
-from google.colab import output
+import gradio as gr
+import time
 
 # Rodar a aplicação
 Google Colab
