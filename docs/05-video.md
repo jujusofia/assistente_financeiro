@@ -29,5 +29,5 @@ O impacto social é enorme: ajuda a reduzir o endividamento da população mais 
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+>https://drive.google.com/file/d/1cTw83lFgN-sgu7EHLHnm17cHFk9Ze4Ju/view?usp=drive_link
 
