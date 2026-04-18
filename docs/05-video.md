@@ -1,6 +1,6 @@
 # Pitch  - SimuLyn AI Chat
 
-### 1. O Problema (30 seg)
+### 1. O Problema 
 Muitos aposentados, pensionistas e servidores públicos têm dificuldade em entender as condições do empréstimo consignado. As taxas de juros, prazos e limites de margem consignável não são claros, o que gera insegurança e risco de endividamento.
 
 
@@ -18,13 +18,11 @@ Assim, o cliente toma decisões mais conscientes e seguras.
 O cliente perguntando: “Se eu pegar R$ 10.000 em 60 meses, quanto pago por mês?”
 O ConsigBot respondendo com uma simulação clara e mostrando diferentes taxas de bancos.
 Outro exemplo: “Posso comprometer 40% da minha aposentadoria?”
-O ConsigBot explicando que o limite é 35% e mostrando como calcular a margem disponível.
+O SimuLyn explicando que o limite é 35% e mostrando como calcular a margem disponível.
 Isso evidencia a praticidade e segurança do agente.
 
-[Descreva o que será mostrado]
-
 ### 4. Diferencial e Impacto (30 seg)
-O diferencial do ConsigBot é a transparência e segurança: ele não inventa informações, não força contratações e respeita os limites legais.
+O diferencial do SimuLyn é a transparência e segurança: ele não inventa informações, não força contratações e respeita os limites legais.
 O impacto social é enorme: ajuda a reduzir o endividamento da população mais vulnerável, promove educação financeira e aumenta a confiança no uso de crédito consignado.
 
 ---
@@ -33,4 +31,3 @@ O impacto social é enorme: ajuda a reduzir o endividamento da população mais 
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
